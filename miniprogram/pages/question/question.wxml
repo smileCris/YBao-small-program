@@ -1,0 +1,22 @@
+<!--miniprogram/pages/question/question.wxml-->
+<navBar></navBar>
+<view class='main'>
+  <view class='card'>
+    <view class='question'>孩子发烧老不好？多半是肺热孩子发烧老不好？多半是肺热孩子发烧老不好？多半是肺热孩子发烧老不好？多半是肺热孩子发烧老不好？多半是肺热孩子发烧老不好？多半是肺热</view>
+    <view class='reply'>
+      <image src='../../images/reply.png' mode='aspectFit'></image>
+      <view class='numText'>5</view>
+      <image src='../../images/heart.png' mode='aspectFit'></image>
+      <view class='numText'>20</view>
+    </view>
+  </view>
+  <view class='card'>
+    <view class='question'>孩子发烧老不好？多半是肺热</view>
+    <view class='reply'>
+      <image src='../../images/reply.png' mode='aspectFit'></image>
+      <view class='numText'>5</view>
+      <image src='../../images/heart.png' mode='aspectFit'></image>
+      <view class='numText'>20</view>
+    </view>
+  </view>
+</view>

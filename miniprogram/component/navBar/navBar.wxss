@@ -1,0 +1,25 @@
+/* component/navBar/navBar.wxss */
+
+.top {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.back {
+  width: 69rpx;
+  height: 69rpx;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleImg {
+  width: 80rpx;
+  height: 80rpx;
+  padding-right: 20rpx;
+}

@@ -1,0 +1,33 @@
+<!--miniprogram/pages/my/my.wxml-->
+<navBar></navBar>
+<view class='main'>
+  <view class='avatar'>
+    <image src='../../images/avatar.jpg'></image>
+  </view>
+  <view class='info'>
+    <view class="section">
+      <view class="section__title">昵称</view>
+      <view class='blank'></view>
+      <input type="digit" placeholder="请输入昵称" />
+    </view>
+    <view class="section">
+      <view class="section__title">账号</view>
+      <view class='blank'></view>
+      <input type="digit" placeholder="请输入账号" />
+    </view>
+    <view class="section">
+      <view class="section__title">年龄</view>
+      <view class='blank'></view>
+      <input type="digit" placeholder="请输入年龄" />
+    </view>
+    <view class="section">
+      <view class="section__title">城市</view>
+      <view class='blank'></view>
+      <input type="digit" placeholder="请输入城市" />
+    </view>
+  </view>
+  <view class='submit'>保存</view>
+
+
+
+</view>

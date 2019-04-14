@@ -1,0 +1,56 @@
+/* miniprogram/pages/my/my.wxss */
+
+.main {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50rpx;
+  padding-bottom: 120rpx;
+}
+
+.avatar {
+  height: 160rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar image {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+}
+
+.info {
+  font-size: 38rpx;
+  padding-top: 88rpx;
+  padding-bottom: 200rpx;
+}
+
+.submit {
+  width: 80%;
+  height: 94rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 26rpx;
+  background: #f56e66;
+}
+
+.section {
+  display: flex;
+  flex-direction: wrap;
+  padding-bottom: 20rpx;
+  margin-top: 30rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.section .section__title {
+  padding-left: 60rpx;
+}
+
+.blank {
+  width: 20%;
+}

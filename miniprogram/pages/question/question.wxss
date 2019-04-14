@@ -1,0 +1,48 @@
+/* miniprogram/pages/question/question.wxss */
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 60rpx 40rpx;
+}
+
+.card {
+  padding: 20rpx;
+  border-radius: 6rpx;
+  margin-bottom: 80rpx;
+  box-shadow: 0 0 12rpx #ddd;
+}
+
+.question {
+  font-size: 40rpx;
+  line-height: 1.6;
+  padding-bottom: 20rpx;
+  border-bottom: 1px solid #eee;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.reply {
+  display: flex;
+  height: 60rpx;
+  padding-top: 20rpx;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.reply image {
+  height: 48rpx;
+  width: 48rpx;
+  margin-left: 20rpx;
+}
+
+.numText {
+  color: #999;
+  font-size: 32rpx;
+  line-height: 48rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}

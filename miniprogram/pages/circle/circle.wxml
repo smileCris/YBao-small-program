@@ -1,0 +1,32 @@
+<!--miniprogram/pages/circle/circle.wxml-->
+<navBar></navBar>
+<view class='main'>
+  <view class='card'>
+    <view class='user'>
+      <image src='../../images/avatar.jpg' class='avatar' mode='aspectFill'></image>
+      <view class='name'>Monica</view>
+    </view>
+    <view class='title'>这是展位的啊啊啊啊</view>
+    <view class='content'>这是展位的啊啊啊啊这是展位的啊啊啊啊啊这是展位的啊啊啊啊啊这是展位的啊啊啊啊啊这是展位的啊啊啊啊这是展位的啊啊啊啊</view>
+    <view class='reply'>
+      <image src='../../images/reply.png' mode='aspectFit'></image>
+      <view class='numText'>5</view>
+      <image src='../../images/heart.png' mode='aspectFit'></image>
+      <view class='numText'>20</view>
+    </view>
+  </view>
+  <view class='card'>
+    <view class='user'>
+      <image src='../../images/avatar.jpg' class='avatar' mode='aspectFill'></image>
+      <view class='name'>Monica</view>
+    </view>
+    <view class='title'>这是展位的啊啊啊啊</view>
+    <view class='content'>这是展位的啊啊啊啊这是展位的啊啊啊啊啊这是展位的啊啊啊啊啊这是展位的啊啊啊啊啊这是展位的啊啊啊啊这是展位的啊啊啊啊</view>
+    <view class='reply'>
+      <image src='../../images/reply.png' mode='aspectFit'></image>
+      <view class='numText'>5</view>
+      <image src='../../images/heart.png' mode='aspectFit'></image>
+      <view class='numText'>20</view>
+    </view>
+  </view>
+</view>

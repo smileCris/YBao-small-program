@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/story/story",
+    "pages/circle/circle",
+    "pages/question/question",
+    "pages/my/my",
+    "component/navBar/navBar",
+    "pages/storyDetail/storyDetail"
+  ],
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#f56e66",
+    "list": [
+      {
+        "pagePath": "pages/story/story",
+        "text": "故事",
+        "iconPath": "images/tabicon/story-grey.png",
+        "selectedIconPath": "images/tabicon/story-pink.png"
+      },
+      {
+        "pagePath": "pages/circle/circle",
+        "text": "圈子",
+        "iconPath": "images/tabicon/circle-grey.png",
+        "selectedIconPath": "images/tabicon/circle-pink.png"
+      },
+      {
+        "pagePath": "pages/question/question",
+        "text": "问答",
+        "iconPath": "images/tabicon/question-grey.png",
+        "selectedIconPath": "images/tabicon/question-pink.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/tabicon/my-grey.png",
+        "selectedIconPath": "images/tabicon/my-pink.png"
+      }
+    ]
+  }
+}

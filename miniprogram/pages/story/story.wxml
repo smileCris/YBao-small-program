@@ -1,0 +1,17 @@
+<!--story.wxml-->
+<navBar></navBar>
+<view class='main'>
+  <view class='card' wx:for='{{storyList}}' wx:key='{{_id}}'>
+    <image src='{{item.img}}' mode='aspectFill' bindtap='toDetail' data-item='{{item}}'></image>
+    <view class='title'>{{item.name}}</view>
+    <view class='desc'>
+      <view class='listen'>
+        <image src='../../images/listen.png'></image>
+        <view>{{item.listenNum}}</view>
+      </view>
+      <button class='share' open-type="share">
+        <image src='../../images/share.png'></image>
+      </button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+/**app.wxss**/
+
+button::after {
+  border: none;
+  background: none;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  background: none;
+  display: flex;
+  align-items: flex-start;
+}

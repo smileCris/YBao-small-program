@@ -1,0 +1,11 @@
+<!--component/navBar/navBar.wxml-->
+<view class='top' style='height: {{barHeight}}px'>
+  <view wx:if='{{showBack}}' bindtap='toBack'>
+    <image src='../../images/back.png' mode='aspectFit' class='back'></image>
+  </view>
+  <view wx:else></view>
+  <view class='title'>
+    <image src='../../images/logo.png' mode='aspectFit' class='titleImg'></image>
+    <view>柚宝</view>
+  </view>
+</view>
